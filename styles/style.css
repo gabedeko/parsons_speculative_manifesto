@@ -97,6 +97,10 @@ h6 {
 	}
 }
 
+.work-cited {
+	font-size: 20px;
+}
+
 .section-0 {
 	background-image: url("../assets/0.jpg");
 }
@@ -135,4 +139,8 @@ h6 {
 
 .section-9 {
 	background-image: url("../assets/7.jpg");
+}
+
+.fp-right ul li a span:nth-child(2) {
+	background-color: #fff !important;
 }
