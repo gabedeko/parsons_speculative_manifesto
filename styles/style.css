@@ -1,0 +1,154 @@
+body {
+	font-family: acumin-pro-wide, sans-serif;
+	position: relative;
+  }
+  h1, h2, h3, h4, h5 {
+	font-weight: 900;
+	font-style: normal;
+  }
+  h1 {
+	font-size: 36px;
+	line-height: 48px;
+	letter-spacing: -0.5px;
+	text-transform: uppercase;
+  }
+  @media (min-width: 768px) {
+	h1 {
+	  font-size: 60px;
+	  line-height: 65px;
+	}
+  }
+  h2 {
+	font-size: 24px;
+	letter-spacing: -0.09px;
+  }
+  @media (min-width: 768px) {
+	h2 {
+	  font-size: 40px;
+	}
+  }
+  h3 {
+	font-size: 20px;
+	letter-spacing: 0;
+  }
+  @media (min-width: 768px) {
+	h3 {
+	  font-size: 32px;
+	}
+  }
+  h4 {
+	font-size: 18px;
+	letter-spacing: 0;
+  }
+  @media (min-width: 768px) {
+	h4 {
+	  font-size: 22px;
+	}
+  }
+  h5 {
+	font-size: 16px;
+	letter-spacing: 0.5px;
+	padding: 5px 9px;
+  }
+  h6 {
+	font-size: 16px;
+	letter-spacing: 0.5px;
+  }
+  p {
+	font-weight: 500;
+  }
+  .title {
+	font-size: 64px;
+	font-weight: 900;
+  }
+  .section {
+	background-image: url('../assets/qr_wp_.jpg');
+	background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+  }
+  .section-content {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0 40px;
+	margin: 0 auto;
+  }
+  .section-content p {
+	text-align: left;
+	font-size: 56px;
+	color: black;
+	background-color: rgba(255, 255, 255, 0.7);
+	padding: 16px;
+  }
+  .section-content p.manifesto-num {
+	font-weight: 900;
+  }
+  @media (min-width: 1200px) {
+	.section-content {
+	  max-width: 1200px;
+	}
+  }
+  .work-cited {
+	font-size: 20px;
+  }
+  .section-intro .fp-tableCell {
+	background-color: rgba(0, 0, 0, 0.7);
+	display: block;
+  }
+  .section-0 .fp-tableCell {
+	background-color: rgba(102, 45, 145, 0.7);
+	display: block;
+  }
+  .section-0 .fp-tableCell, .section-6 .fp-tableCell {
+	background-color: rgba(252, 176, 48, 0.7);
+	display: block;
+  }
+  .section-1 .fp-tableCell, .section-7 .fp-tableCell {
+	background-color: rgba(0, 165, 80, 0.7);
+	display: block;
+  }
+  .section-2 .fp-tableCell, .section-8 .fp-tableCell {
+	background-color: rgba(21, 168, 224, 0.7);
+	display: block;
+  }
+  .section-3 .fp-tableCell, .section-9 .fp-tableCell {
+	background-color: rgba(237, 0, 140, 0.7);
+	display: block;
+  }
+  .section-4 .fp-tableCell {
+	background-color: rgba(41, 56, 144, 0.7);
+	display: block;
+  }
+  .section-5 .fp-tableCell {
+	background-color: rgba(102, 45, 145, 0.7);
+	display: block;
+  }
+  .section-fin .fp-tableCell {
+	background-color: rgba(0, 0, 0, 0.7);
+	display: block;
+  }
+  .fp-right ul li a span:nth-child(2) {
+	background-color: #fff !important;
+  }
+  .website-stamp {
+	position: fixed;
+	right: 2vw;
+	bottom: 2vh;
+	z-index: 9999;
+	color: #000;
+	background-color: rgba(255, 255, 255, 0.7);
+  }
+  .italic-text {
+	font-family: acumin-pro-wide, sans-serif;
+	font-weight: 400;
+	font-style: italic;
+  }
+  .bold-text {
+	font-family: acumin-pro-wide, sans-serif;
+	font-weight: 900;
+	font-style: normal;
+  }
+  
