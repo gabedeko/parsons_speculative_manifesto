@@ -63,6 +63,9 @@ p {
 .title {
     font-size: 64px;
     font-weight: 900;
+    @media (max-width: 991.98px) {
+        font-size: 36px;
+    }
 }
 
 .section {
@@ -90,14 +93,14 @@ p {
         &.manifesto-num {
             font-weight: 900;
         }
+
+        @media (max-width: 991.98px) {
+            font-size: 24px;
+        }
     }
     @media (min-width: 1200px) {
         max-width: 1200px;
     }
-}
-
-.work-cited {
-    font-size: 20px;
 }
 
 .section-intro {
@@ -175,6 +178,11 @@ p {
 	z-index: 9999;
 	color: #000;
 	background-color: rgba(255,255,255,.7);
+    @media (max-width: 991.98px) {
+        right: .5vw;
+        bottom: .5vh;
+        font-size: 12px;
+    }
 }
 
 .italic-text {

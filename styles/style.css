@@ -61,6 +61,11 @@ body {
 	font-size: 64px;
 	font-weight: 900;
   }
+  @media (max-width: 991.98px) {
+	.title {
+	  font-size: 36px;
+	}
+  }
   .section {
 	background-image: url('../assets/qr_wp_.jpg');
 	background-size: cover;
@@ -86,13 +91,15 @@ body {
   .section-content p.manifesto-num {
 	font-weight: 900;
   }
+  @media (max-width: 991.98px) {
+	.section-content p {
+	  font-size: 24px;
+	}
+  }
   @media (min-width: 1200px) {
 	.section-content {
 	  max-width: 1200px;
 	}
-  }
-  .work-cited {
-	font-size: 20px;
   }
   .section-intro .fp-tableCell {
 	background-color: rgba(0, 0, 0, 0.7);
@@ -140,6 +147,13 @@ body {
 	z-index: 9999;
 	color: #000;
 	background-color: rgba(255, 255, 255, 0.7);
+  }
+  @media (max-width: 991.98px) {
+	.website-stamp {
+	  right: 0.5vw;
+	  bottom: 0.5vh;
+	  font-size: 12px;
+	}
   }
   .italic-text {
 	font-family: acumin-pro-wide, sans-serif;
